@@ -1,0 +1,79 @@
+/* Reset dasar */
+body {
+    display: flex;
+    height: 650px;
+    margin-top: 70px;
+    background-image: url(GYM2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Sans-serif;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Kontainer Login */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Warna transparan */
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan */
+    width: 300px;
+    text-align: center;
+}
+
+/* Judul */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Input */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan input */
+    outline: none;
+}
+
+/* Tombol Login */
+.login-btn {
+    width: 100%;
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+    }
+}
